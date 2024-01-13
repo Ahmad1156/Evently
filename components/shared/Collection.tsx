@@ -19,7 +19,7 @@ const Collection = ({
   emptyTitle,
   emptyStateSubText,
   page,
-  totalPages,
+  totalPages = 0,
   collectionType,
   limit,
   urlParamName,
