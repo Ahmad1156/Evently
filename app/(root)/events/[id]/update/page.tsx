@@ -2,7 +2,6 @@ import React from "react";
 import EventForm from "@/components/shared/EventForm";
 import { auth } from "@clerk/nextjs";
 import { getSingleEvent } from "@/lib/actions/event.actions";
-import { UpdateEventParams } from "@/types";
 
 type UpdateEventProps = {
   params: {
